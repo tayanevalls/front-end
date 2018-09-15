@@ -1,0 +1,128 @@
+.ic-people {
+    width: 55px; 
+    height: 47px;
+    background: url('../images/ic-sprite.png') -0 -7px;
+}
+.ic-map {
+    width: 55px; 
+    height: 50px;
+    background: url('../images/ic-sprite.png') -0 -65px;
+}
+.ic-target {
+    width: 55px; 
+    height: 50px;
+    background: url('../images/ic-sprite.png') -0 -128px;
+}
+.ic-search {
+    width: 55px; 
+    height: 50px;
+    background: url('../images/ic-sprite.png') -0 -192px;
+}
+
+.ic-camera{
+    width: 64px; height: 64px;
+    background: url('../images/product-sprite.png') -10px 9px;
+}
+
+.ic-leaf{
+    width: 64px;
+    height: 64px;
+    background: url('../images/product-sprite.png') -10px -78px;
+}
+
+.ic-cloud{
+    width: 64px; height: 64px;
+    background: url('../images/product-sprite.png') -10px -159px;
+}
+
+.ic-gift{
+    width: 64px; height: 64px;
+    background: url('../images/product-sprite.png') -10px -245px;
+}
+
+.ic-flag{
+    width: 64px; height: 64px;
+    background: url('../images/product-sprite.png') -10px -328px;
+}
+
+.ic-beer{
+    width: 64px; height: 64px;
+    background: url('../images/product-sprite.png') -10px -412px;
+}
+
+.ic-game{
+    width: 64px;
+    height: 64px;
+    background: url('../images/product-sprite.png') -10px -495px;
+}
+
+.ic-rocket{
+    width: 64px;
+    height: 64px;
+    background: url('../images/product-sprite.png') -10px -582px;
+}
+
+.ic-users {
+    width: 64px;
+    height: 64px;
+    background: url('../images/product-sprite.png') -10px -666px;
+}
+
+.ic-globe {
+    width: 64px;
+    height: 64px;
+    background: url('../images/product-sprite.png') -10px -751px;
+}
+
+
+.ic-eletronic {
+    width: 49px; height: 27px;
+    background: url('../images/filter-sprite.png') -15px -161px;
+}
+
+.ic-gifts {
+    width: 29px; height: 33px;
+    background: url('../images/filter-sprite.png') -8px -338px;
+}
+
+.ic-fashion {
+    width: 34px; height: 33px;
+    background: url('../images/filter-sprite.png') -8px -401px;
+}
+
+.ic-sport {
+    width: 43px; height: 26px;
+    background: url('../images/filter-sprite.png') -15px -105px;
+}
+
+.ic-health {
+    width: 34px; height: 29px;
+    background: url('../images/filter-sprite.png') -8px -218px;
+}
+
+.ic-beauty {
+    width: 24px; height: 35px;
+    background: url('../images/filter-sprite.png') -7px -464px;
+}
+
+.ic-food {
+    height: 36px;
+    background: url('../images/filter-sprite.png') -7px -529px;
+}
+
+.ic-decor {
+    height: 23px;
+    background: url('../images/filter-sprite.png') -8px -45px;
+}
+
+.ic-culture{
+    width: 39px; 
+    height: 31px;
+    background: url('../images/filter-sprite.png') -8px -277px;
+}
+
+.ic-others {
+    width: 35px; 
+    height: 7px;
+    background: url('../images/filter-sprite.png') -8px 0;
+}
