@@ -103,45 +103,6 @@ body {
 	background-color: #cc6633;
 }
 
-.featured img {
-	margin-bottom: 10px;
-	width: 150px;
-}
-
-footer {
-	background: #336699;
-	padding: 20px;
-	width: 100%;
-}
-
-footer p {
-	color: #ffffff;
-	margin: 0;
-	font-size: 14px;
-}
-
-footer a {
-	color: #ffffff;
-	text-decoration: underline;
-}
-
-footer a:hover {
-	color: #ffffff;
-}
-
-footer i {
-	width: 55px;
-	height: 50px;
-	background: url("../images/ic-support.svg") 0 0;
-}
-
-footer span {
-	vertical-align: middle;
-	display: table-cell;
-	height: 55px;
-	padding-left: 10px;
-}
-
 .about p {
 	font: 14px "Open Sans", sans-serif;
 	color: #666666;
@@ -439,6 +400,40 @@ footer span {
 
 .products div:nth-child(1) div:last-child {
 	margin-right: 0;
+}
+
+footer {
+	background: #336699;
+	padding: 20px;
+	width: 100%;
+}
+
+footer p {
+	color: #ffffff;
+	margin: 0;
+	font-size: 14px;
+}
+
+footer a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+footer a:hover {
+	color: #ffffff;
+}
+
+footer i {
+	width: 55px;
+	height: 50px;
+	background: url("../images/ic-support.svg") 0 0;
+}
+
+footer span {
+	vertical-align: middle;
+	display: table-cell;
+	height: 55px;
+	padding-left: 10px;
 }
 
 .modal .close {
