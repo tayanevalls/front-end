@@ -594,6 +594,7 @@ footer span {
 	color: #cc6633;
 	border-radius: 4px;
 	box-sizing: border-box;
+	background: #ffffff;
 }
 
 .modal .modal-body button:focus {
