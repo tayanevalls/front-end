@@ -95,42 +95,6 @@ body {
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: $featured;
 }
-.featured{
-    img{
-        margin-bottom: 10px;
-        width: 150px;
-    }  
-}
-
-footer{
-    background: $primary;
-    padding: 20px;
-    width: 100%;
-
-    p{
-        color: $main;
-        margin: 0;
-        font-size: 14px;
-    }
-    a{
-        color:$main;
-        text-decoration: underline;
-        &:hover{
-            color:$main;  
-        }
-    }
-    i{
-        width: 55px; 
-        height: 50px;
-        background: url('../images/ic-support.svg') -0 -0;
-    }
-    span{
-        vertical-align: middle;
-        display: table-cell;
-        height: 55px;
-        padding-left: 10px;
-    }
-}
 
 .about{
     p{
@@ -174,11 +138,12 @@ footer{
     ul{
         padding: 17px 0;
         margin-bottom: 0;
+        display: inline-flex;
         li{
             display: inline-block;
             border-right: 1px solid $common;
             height: 40px;
-            padding: 0 1.3%;
+            padding: 0 1.9%;
             vertical-align: middle;
             font-size: 12px;
             text-align: center;
@@ -186,6 +151,13 @@ footer{
 
             &.last{
                 border: 0;
+                padding-right: 0;
+            }
+
+            &:first-child{
+                padding-left: 0;
+                
+            
             }
 
             i{
@@ -414,6 +386,34 @@ footer{
 
     }
 
+}footer{
+    background: $primary;
+    padding: 20px;
+    width: 100%;
+
+    p{
+        color: $main;
+        margin: 0;
+        font-size: 14px;
+    }
+    a{
+        color:$main;
+        text-decoration: underline;
+        &:hover{
+            color:$main;  
+        }
+    }
+    i{
+        width: 55px; 
+        height: 50px;
+        background: url('../images/ic-support.svg') -0 -0;
+    }
+    span{
+        vertical-align: middle;
+        display: table-cell;
+        height: 55px;
+        padding-left: 10px;
+    }
 }
 
 .modal{
@@ -560,6 +560,11 @@ footer{
             &:focus{
                 outline: none;
             }
+            &:hover{
+                background: $featured; 
+                border: 1px solid $main;
+                color: $main;
+            }
         }
     }
 }
@@ -632,6 +637,11 @@ footer{
                 margin-left: 20px;
             }
         }
-    }      
+    }   
+    footer{
+        a{
+            display: block;
+        }
+    }   
  }
  

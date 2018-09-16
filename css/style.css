@@ -145,13 +145,14 @@ body {
 .filter ul {
 	padding: 17px 0;
 	margin-bottom: 0;
+	display: inline-flex;
 }
 
 .filter ul li {
 	display: inline-block;
 	border-right: 1px solid #cccccc;
 	height: 40px;
-	padding: 0 1.3%;
+	padding: 0 1.9%;
 	vertical-align: middle;
 	font-size: 12px;
 	text-align: center;
@@ -160,6 +161,11 @@ body {
 
 .filter ul li.last {
 	border: 0;
+	padding-right: 0;
+}
+
+.filter ul li:first-child {
+	padding-left: 0;
 }
 
 .filter ul li i {
@@ -594,6 +600,12 @@ footer span {
 	outline: none;
 }
 
+.modal .modal-body button:hover {
+	background: #cc6633;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
 @media (max-width: 768px) {
 	.navbar {
 		height: 30px;
@@ -650,5 +662,8 @@ footer span {
 	}
 	.modal .cupom.discount {
 		margin-left: 20px;
+	}
+	footer a {
+		display: block;
 	}
 }
